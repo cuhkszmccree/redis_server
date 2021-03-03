@@ -70,7 +70,7 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
 
     <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
         <!--可以访问的logstash日志收集端口-->
-        <destination>127.0.0.1:4560</destination>
+        <destination>192.168.0.99:4560</destination>
         <encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder"/>
     </appender>
 
