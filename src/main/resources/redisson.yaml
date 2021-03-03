@@ -1,0 +1,7 @@
+singleServerConfig:
+  address: "redis://127.0.0.1:6379"
+  database: 4
+  connectionTimeout: 10000
+  Timeout: 3000
+  transportMode: "NIO"
+  password:
