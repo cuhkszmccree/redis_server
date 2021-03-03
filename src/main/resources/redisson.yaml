@@ -1,7 +1,7 @@
 sentinelServersConfig:
   sentinelAddresses:
-    - "redis://192.168.0.99:16379"
-    - "redis://192.168.0.99:26379"
+    - "192.168.0.99:16379"
+    - "192.168.0.99:26379"
   masterName: "mymaster"
   database: 4
   readMode: "SLAVE"
