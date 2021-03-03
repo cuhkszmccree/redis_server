@@ -1,6 +1,10 @@
-singleServerConfig:
-  address: "redis://127.0.0.1:6379"
+sentinelServersConfig:
+  sentinelAddresses:
+    - "redis://192.168.0.99:16379"
+    - "redis://192.168.0.99:26379"
+  masterName: "mymaster"
   database: 4
+  readMode: "SLAVE"
   connectionTimeout: 10000
   Timeout: 3000
   transportMode: "NIO"
