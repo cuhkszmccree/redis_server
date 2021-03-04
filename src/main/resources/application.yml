@@ -32,3 +32,13 @@ logging:
       example:
         DEBUG
 
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        exclude: *
+
