@@ -34,11 +34,11 @@ logging:
 
 
 management:
-  endpoint:
-    health:
-      show-details: always
   endpoints:
     web:
       exposure:
-        exclude: *
+        exclude: "*"
+  endpoint:
+    health:
+      show-details: always
 
