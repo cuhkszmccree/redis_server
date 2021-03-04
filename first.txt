@@ -1,0 +1,16 @@
+git init
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:cuhkszmccree/redis_server.git
+git push -u origin master
+
+node2 erlang cookie: TCkOjxF0ySaLpSeA5s8iFA==
+
+node1 erlang cookie: not same
+
+/etc/rabbitmq/rabbitmq.conf
+
+
+OVBZSJGYMSZBOOITFYKW
+
+8t0lBZYmLCQqwIBmoGtZRQ==
