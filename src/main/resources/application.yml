@@ -33,12 +33,4 @@ logging:
         DEBUG
 
 
-management:
-  endpoints:
-    web:
-      exposure:
-        exclude: "*"
-  endpoint:
-    health:
-      show-details: always
 
