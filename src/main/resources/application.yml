@@ -32,5 +32,12 @@ logging:
       example:
         DEBUG
 
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
 
